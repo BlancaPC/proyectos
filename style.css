@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    background: whitesmoke;
+    padding: 15em;
+}
+
+.container {
+    border: solid 2px purple;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background: plum;
+}
+.container h4 {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+.container button {
+    margin-bottom: 2em;
+    background: purple;
+    border: none;
+    border-radius: 1em;
+    color: oldlace;
+    padding: 0.5em;
+}
+
+.container input {
+    border: none;
+    border-radius: 0.5em;
+}
